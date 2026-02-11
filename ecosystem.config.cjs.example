@@ -1,0 +1,15 @@
+// ecosystem.config.js
+module.exports = {
+  apps: [
+    {
+      name: 'aibuddy',
+      script: './build/index.js',
+      time: true,
+      env: {
+        NODE_ENV: 'production',
+        ORIGIN: 'YOUR_WEB_APP_URL',
+        PORT: PORT_NUMBER // Replace with the port number you want to run the server on
+      }
+    }
+  ]
+};

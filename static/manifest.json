@@ -1,0 +1,22 @@
+{
+  "name": "AI Buddy",
+  "short_name": "AI Buddy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2A323C",
+  "theme_color": "#2A323C",
+  "description": "Chat with fun and engaging AI-powered personas.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
