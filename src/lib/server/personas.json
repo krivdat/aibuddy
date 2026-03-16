@@ -90,7 +90,7 @@
   {
     "id": "normal",
     "name": "Normal AI",
-    "avatar": "/icons/icon-192x192.png",
+    "avatar": "/icons/icon-192x192-2.png",
     "description": "Regular AI that answers questions and provides information without any specific character or personality.",
     "system_prompt": "",
     "initial_greeting_prompt": "Generate a helpful and neutral greeting."
