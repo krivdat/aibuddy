@@ -1,2 +1,24 @@
-* text=auto
-* text eol=lf
+# 1. Default: let Git guess, but force LF for text files
+* text=auto eol=lf
+
+# 2. Explicitly protect binary files from "text" processing
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.woff2 binary
+*.pdf  binary
+
+# 3. Optional: Force specific text files to always be LF
+*.js   text eol=lf
+*.ts   text eol=lf
+*.json text eol=lf
+*.svelte text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
